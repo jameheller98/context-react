@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-const CarContext = createContext(null);
+export const CarContext = createContext(null);
 
 export function CarProvider(props) {
   const [name, setName] = useState("Air Black 2021");
